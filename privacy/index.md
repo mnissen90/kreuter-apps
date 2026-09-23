@@ -47,6 +47,22 @@ Project Budget Guard does not send Jira project or worklog data to third-party s
 
 Project configuration information is retained in Atlassian Forge-hosted storage as needed to provide the app's functionality.
 
+### Data residency
+
+Project Budget Guard stores project configuration data using Atlassian Forge-hosted storage. This data follows the data residency capabilities provided by the Atlassian Forge platform.
+
+The following Project Budget Guard configuration data is in scope for data residency:
+
+- Project budget
+- Hourly labor cost
+- Warning threshold
+- Project completion percentage
+- Selected currency
+
+Project Budget Guard does not store this data outside Atlassian apps and services.
+
+Jira project and worklog data used to calculate labor hours and costs is accessed through Atlassian APIs and is not copied to an external database or storage service.
+
 ### Security
 
 Project Budget Guard uses Atlassian Forge infrastructure and APIs to provide its functionality. Access to Jira data is limited to the permissions required by the app.
