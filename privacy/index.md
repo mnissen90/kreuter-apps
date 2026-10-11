@@ -5,9 +5,72 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Last updated: September 23, 2026**
+**Last updated: October 11, 2026**
 
-Kreuter Apps is operated by V5 Joining Technologies ("we," "us," or "our"). This Privacy Policy describes how information is handled by our Atlassian Marketplace applications, including Project Budget Guard.
+Kreuter Apps is operated by V5 Joining Technologies ("we," "us," or "our"). This Privacy Policy describes how information is handled by our applications, including our Shopify apps (Margin Leak and Margin Guard) and our Atlassian Marketplace applications (Project Budget Guard).
+
+## Margin Leak (Shopify)
+
+Margin Leak helps Shopify merchants see how much profit their discounts cost. It compares profit before and after discounts per product and order, and flags results that fall below a merchant-configured target gross margin.
+
+### Information the app accesses
+
+Margin Leak accesses the following Shopify store data through Shopify's APIs, as necessary to provide its functionality:
+
+- Products, including cost per item (to compute gross margins)
+- Orders, including line items, discounts applied, and totals (to compute profit before and after discounts)
+- Discount codes and automatic discounts (to attribute profit loss to promotions)
+
+The app also stores configuration entered by the merchant, including:
+
+- Target gross margin percentage
+
+### Personal data
+
+Margin Leak processes order information as provided by Shopify's APIs to calculate profit and margin figures. The app does not require merchants or their customers to create a separate Kreuter Apps account.
+
+### Data storage and processing
+
+Margin Leak is hosted on our application servers. Store data accessed through Shopify's APIs is processed to generate the profit and margin analytics shown in the app.
+
+### Third-party sharing
+
+We do not sell Margin Leak customer or store data. Margin Leak does not send store, order, or product data to third-party services for advertising, analytics, or marketing purposes.
+
+### Data retention and deletion
+
+Configuration data (such as the target gross margin) is retained as needed to provide the app's functionality. If you uninstall Margin Leak and want your store's data deleted, contact us at the email below and we will delete it within 30 days.
+
+## Margin Guard (Shopify)
+
+Margin Guard is a Shopify POS UI extension that shows staff the cart's live gross margin and the maximum safe discount that keeps the sale above a merchant-configured minimum gross margin. When the margin floor is reached, further discounting is blocked.
+
+### Information the app accesses
+
+Margin Guard accesses the following Shopify store data through Shopify's APIs, as necessary to provide its functionality:
+
+- Products, including cost per item (to compute cart gross margin)
+- The current POS cart contents and totals (to compute the maximum safe discount)
+
+The app also stores configuration entered by the merchant, including:
+
+- Minimum gross margin percentage
+
+### Personal data
+
+Margin Guard processes cart and product information in the POS session to calculate margins and safe discounts. The app does not require merchants, staff, or customers to create a separate Kreuter Apps account.
+
+### Data storage and processing
+
+Margin Guard is hosted on our application servers. Cart data is processed to display margin information in the POS tile.
+
+### Third-party sharing
+
+We do not sell Margin Guard customer or store data. Margin Guard does not send store, cart, or product data to third-party services for advertising, analytics, or marketing purposes.
+
+### Data retention and deletion
+
+Configuration data (such as the minimum gross margin) is retained as needed to provide the app's functionality. If you uninstall Margin Guard and want your store's data deleted, contact us at the email below and we will delete it within 30 days.
 
 ## Project Budget Guard
 
@@ -20,9 +83,13 @@ Project Budget Guard accesses Jira project information and worklog data as neces
 The app also stores configuration information entered by users for each Jira project, including:
 
 - Project budget
+
 - Hourly labor cost
+
 - Budget warning threshold
+
 - Estimated project completion percentage
+
 - Selected currency
 
 ### Personal data
@@ -54,9 +121,13 @@ Project Budget Guard stores project configuration data using Atlassian Forge-hos
 The following Project Budget Guard configuration data is in scope for data residency:
 
 - Project budget
+
 - Hourly labor cost
+
 - Warning threshold
+
 - Project completion percentage
+
 - Selected currency
 
 Project Budget Guard does not store this data outside Atlassian apps and services.
@@ -73,8 +144,8 @@ We may update this Privacy Policy as our applications or legal requirements chan
 
 ### Contact
 
-For privacy questions or questions about Project Budget Guard, contact:
+For privacy questions or questions about our apps, contact: Kreuter Apps
 
-Kreuter Apps  
-Operated by V5 Joining Technologies  
+Operated by V5 Joining Technologies
+
 Email: melnis90@gmail.com
